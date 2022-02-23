@@ -1,18 +1,18 @@
-import React, { Component } from "react";
-import LoginForm from "../components/authForms/loginForm";
+import React from "react";
+import SignupForm from "../components/authForms/signupForm";
 import SimpleHeader from "../components/simpleheader/simpleHeader";
 import styled from "styled-components";
 
-const Login = () => (
-  <LoginContainer>
+const Signup = () => (
+  <SignUpContainer>
     <SimpleHeader />
-    <LoginForm />
-  </LoginContainer>
+    <SignupForm />
+  </SignUpContainer>
 );
 
-export default Login;
+export default Signup;
 
-const LoginContainer = styled.div`
+const SignUpContainer = styled.div`
   width: 100vw;
   min-height: 100vh;
   background-color: #f6f6f6;
